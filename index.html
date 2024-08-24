@@ -18,7 +18,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              primary: "#ABEF5F",
+              primary: "rgba(171, 239, 95, 0.2)",
               primary_text: "#737373",
               secondary_text: "#494949",
               secondary_bg: "#ABEF5F80",
@@ -146,10 +146,10 @@
         <div class="container mx-auto ">
           <!-- About us -->
          <div >
-          <div class="hidden lg:block ">
+          <div class="hidden lg:block lg:-ml-12 ">
             <img src="./assets/Vector.png" alt="">
           </div>
-          <div class="flex flex-col lg:flex-row justify-center mt-3  lg:ml-12">
+          <div class="flex flex-col lg:flex-row justify-center mt-3  ">
             <div class="lg:w-2/4">
               <div class="flex  items-center gap-2 bg-white px-2 py-3 rounded-[30px] w-32 mx-auto lg:mx-0">
                 <i class="fa-solid fa-arrow-right "></i>
@@ -186,7 +186,57 @@
             </div>
            </div>
           </div>
-         
+         <!-- works -->
+          <div>
+            <div class="flex flex-col justify-center">
+              <div class="flex mt-4 items-center gap-2 bg-white px-4 py-3 rounded-[30px]  mx-auto">
+                <i class="fa-solid fa-arrow-right "></i>
+                  <h2>How we works</h2>
+              </div>
+              <div class="space-y-6 text-center lg:text-left lg:mx-auto">
+                <h1 class="text-2xl font-bold lg:text-[40px] lg:font-extrabold mt-3 lg:text-center">Our Works Process</h1>
+                <p class="text-secondary_text lg:w-3/4 lg:text-center mx-auto">The barn house captivates with its blend of rustic charm and 
+                  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 space-y-4 lg:grid-cols-4 lg:space-x-6 mt-8">
+              <!-- card 1 -->
+               <div class="p-6 bg-pink-200 rounded-xl space-y-4">
+                <div>
+                  <img src="./assets/concept.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Concept</h2>
+                <p class="text-secondary_text">The barn house captivates with its blend of rustic charm and modern.</p>
+               </div>
+               <!-- card 2 -->
+               <div class="p-6 bg-yellow-200 rounded-xl space-y-4">
+                <div>
+                  <img src="./assets/flow-chart.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Design Process</h2>
+                <p class="text-secondary_text">The barn house captivates with its blend of rustic charm and modern.</p>
+               </div>
+               <!-- card 3 -->
+               <div class="p-6 bg-pink-300 rounded-xl space-y-4">
+                <div>
+                  <img src="./assets/vision.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Concept</h2>
+                <p class="text-secondary_text">The barn house captivates with its blend of rustic charm and modern.</p>
+               </div>
+               <!-- card 4 -->
+               <div class="p-6 bg-blue-300  rounded-xl space-y-4">
+                <div>
+                  <img src="./assets/budget-planning.png" alt="">
+                </div>
+                <h2 class="text-xl font-bold">Budget Planning</h2>
+                <p class="text-secondary_text">The barn house captivates with its blend of rustic charm and modern.</p>
+               </div>
+            </div>
+          </div>
+
+
         </div>
       </section>
     </main>
