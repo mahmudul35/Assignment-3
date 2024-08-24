@@ -22,6 +22,7 @@
               primary_text: "#737373",
               secondary_text: "#494949",
               secondary_bg: "#ABEF5F80",
+              title_bg: "#E5F3D6",
             },
           },
         },
@@ -46,7 +47,7 @@
     </style>
   </head>
   <body class="font-Manrope">
-    <header class="lg:container lg:mx-auto">
+    <header class="lg:container lg:mx-auto bg-gradient-to-b from-white to-transparent"">
       <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -66,10 +67,10 @@
           </div>
           <div class="navbar-end space-x-4">
             <i
-              class="fa-solid fa-magnifying-glass bg-white rounded-full p-3 shadow-lg hidden"
+              class="fa-solid fa-magnifying-glass bg-white rounded-full p-3 shadow-lg hidden lg:inline-block"
             ></i>
             <i
-              class="fa-solid fa-cart-shopping bg-white rounded-full p-3 shadow-lg hidden"
+              class="fa-solid fa-cart-shopping bg-white rounded-full p-3 shadow-lg hidden lg:inline-block"
             ></i>
             <a
               class="bg-primary py-2 px-4 rounded-3xl cursor-pointer text-lg font-bold hidden lg:inline-block"
@@ -140,7 +141,55 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="bg-zinc-100 p-6 my-14">
+        <div class="container mx-auto ">
+          <!-- About us -->
+         <div >
+          <div class="hidden lg:block ">
+            <img src="./assets/Vector.png" alt="">
+          </div>
+          <div class="flex flex-col lg:flex-row justify-center mt-3  lg:ml-12">
+            <div class="lg:w-2/4">
+              <div class="flex  items-center gap-2 bg-white px-2 py-3 rounded-[30px] w-32 mx-auto lg:mx-0">
+                <i class="fa-solid fa-arrow-right "></i>
+                  <h2>About us</h2>
+              </div>
+              <div class="space-y-6 text-center lg:text-left">
+                <h1 class="text-2xl font-bold lg:text-[40px] lg:font-extrabold mt-3">We design thoughtful,<br>liveable spaces</h1>
+                <p class="text-secondary_text lg:w-3/4">The barn house captivates with its blend of rustic charm and 
+                  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              </div>
+              <!-- card 1 -->
+               <div class="flex gap-6 items-center bg-white p-6 rounded-2xl mt-6 mb-4">
+                <div>
+                  <img class="w-12" src="./assets/commercial.png" alt="">
+                </div>
+                <div>
+                  <h2 class="text-xl text-secondary_text font-extrabold">Commercial</h2>
+                  <p class="text-primary_text lg:w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+               </div>
+               <!-- card 2 -->
+               <div class="flex gap-6 items-center bg-white p-6 rounded-2xl">
+                <div>
+                  <img class="w-12" src="./assets/residential.png" alt="">
+                </div>
+                <div>
+                  <h2 class="text-xl text-secondary_text font-extrabold">Residential</h2>
+                  <p class="text-primary_text lg:w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+               </div>
+            </div>
+             <div class="lg:w-2/4 mt-4" >
+              <img class="mx-auto  lg:h-5/6" src="./assets/Rectangle.png" alt="">
+            </div>
+           </div>
+          </div>
+         
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
