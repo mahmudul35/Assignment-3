@@ -276,17 +276,42 @@
           </div>
           <div class="space-y-6 text-center lg:text-left lg:mx-auto">
             <h1 class="text-2xl font-bold lg:text-[40px] lg:font-extrabold mt-3 lg:text-center">Our Latest Portfolio</h1>
-            <p class="text-secondary_text lg:w-3/4 lg:text-center mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <p class="text-secondary_text lg:w-3/4 lg:text-center mx-auto px-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6  container mx-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-12 md:grid-rows-2 gap-5  container mx-auto p-4">
 
-          <div class="md:col-span-2 flex flex-col justify-start md:flex-row items-center gap-6 border border-gray-300 p-6 rounded-2xl">
+          <div class=" md:col-start-1 md:col-end-9 md:h-[225px] flex flex-col  md:flex-row items-center gap-6 border border-gray-300 p-4 rounded-2xl">
             
-              <img class="w-full md:w-[260px]" src="./assets/img1.png" alt="">
+              <img class="w-full h-full" src="./assets/img1.png" alt="">
             
-            <div class="flex flex-col w-[440px] p-8">
+            <div class="h-full flex flex-col">
+              <div>
+                <h1>Commercial</h1>
+                <p >The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              </div>
+             <div>
+              <a class="text-lg font-bold" href="">Read More <i
+                class="fa-solid fa-arrow-right bg-primary rounded-full p-2 -rotate-45 w-8 h-8 ml-2"
+              ></i></a>
+             </div>
+            </div>
+          </div>
+
+          <div class="w-full md:col-start-9 md:col-end-13 md:h-[225px] border border-gray-300 p-4 rounded-2xl">
+            <img class="w-full h-full mx-auto" src="./assets/img2.png" alt="">
+          </div>
+        
+          <div class=" md:col-start-1 md:col-end-4 h-[225px] order-5 md:order-3 border border-gray-300 p-4 rounded-2xl">
+            <img class="w-full h-full mx-auto" src="./assets/img3.png" alt="">
+          </div>
+  
+          <div class=" md:col-start-4 md:col-end-10 md:h-[225px] order-4 md:order-4 flex flex-col md:flex-row items-center gap-6 border border-gray-300 p-4 rounded-2xl">
+            
+              <img class="w-full h-full" src="./assets/img4.png" alt="">
+            
+            <div class="w-full flex flex-col ">
               <div>
                 <h1>Commercial</h1>
                 <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
@@ -298,43 +323,18 @@
              </div>
             </div>
           </div>
-  
-          <div class="md:col-span-1 border border-gray-300 p-6 rounded-2xl">
-            <img class="mx-auto" src="./assets/img2.png" alt="">
-          </div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 container mx-auto mb-24 p-4">
-          <div class="col-span-1 border border-gray-300 p-6 rounded-2xl">
-            <img class=" mx-auto" src="./assets/img3.png" alt="">
-          </div>
-  
-          <div class=" col-span-2 flex flex-col md:flex-row items-center gap-6 border border-gray-300 p-6 rounded-2xl">
-            
-              <img  src="./assets/img1.png" alt="">
-            
-            <div class="flex flex-col p-8 ">
-              <div>
-                <h1>Commercial</h1>
-                <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
-              </div>
-             <div>
-              <a class="text-lg font-bold" href="">Read More <i
-                class="fa-solid fa-arrow-right bg-primary rounded-full p-2 -rotate-45 w-8 h-8 ml-2"
-              ></i></a>
-             </div>
-            </div>
-          </div>
-
-
-          <div class="col-span-1 border border-gray-300 p-6 rounded-2xl">
-            <img class="mx-auto" src="./assets/img4.png" alt="">
-          </div>
-        </div>
           
-  
+          <div
+         class="lg:col-start-10 lg:col-end-13 border rounded-lg p-4  h-[220px] order-3 md:order-5 md:col-start-5 md:col-end-9">
+         <img class="w-full h-full" src="./assets/img5.png"alt="" />
+       </div>
+
+          <div class="lg:col-start-10 lg:col-end-13 border rounded-lg p-4 lg:hidden h-[225px] order-6 md:col-start-5 md:col-end-9">
+         <img class="w-full h-full" src="./assets/img5.png" alt="" />
+       </div>
           
-             </section>
+        </div>
+     </section>
       <!-- Article and news -->
        <section class="bg-zinc-100 py-24">
         <div class="container mx-auto p-5">
@@ -436,10 +436,10 @@
        <!-- what we do -->
         <section class="flex flex-col md:flex-row md:justify-around container mx-auto px-4 md:px-0">
           
-          <div class="w-full md:w-3/6  py-20">
+          <div class="w-full md:w-3/6 py-9 md:py-20">
             <div class="w-full md:w-3/4">
               <h1 class="text-yellow-700">WHAT WE DO</h1>
-          <h1 class="lg:text-5xl font-extrabold mb-5">Creating the art of stylish living</h1>
+          <h1 class="text-2xl lg:text-5xl font-extrabold mb-5">Creating the art of stylish living</h1>
             </div>
             <div class="collapse collapse-plus w-full md:w-3/4 ">
               <input type="radio" name="my-accordion-3" checked="checked" />
@@ -577,7 +577,7 @@
               <div class="lg:col-span-2 ">
                 <textarea   
               placeholder="Bio"
-              class="textarea textarea-bordered textarea-lg w-full  rounded-2xl   resize-none"></textarea>
+              class="textarea textarea-bordered textarea-lg w-full  rounded-2xl rows-7   resize-none"></textarea>
               </div>
               <div class="lg:col-span-2 ">
                 <a
@@ -602,7 +602,7 @@
             <p class=" max-w-[672px] text-center text-primary_text">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
         <div>
-          <ul class="flex flex-col text-center space-y-5 lg:flex-row lg:space-x-[120px] justify-center p-2 my-10 text-stone-200">
+          <ul class="flex flex-col text-center  lg:flex-row lg:space-x-[120px] justify-center p-2 my-10 text-stone-200">
             <li class="cursor-pointer"><a>Home</a></li>
             <li class="cursor-pointer"><a>Services</a></li>
             <li class="cursor-pointer"><a>Portfolio</a></li>
